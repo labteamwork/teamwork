@@ -95,7 +95,7 @@ body{
 	background: url("../img/index/background.jpg") no-repeat center #aeccd7;
 	background-size: cover;
 	position: relative;
-	font-family: 'Tahoma', sans-serif;
+	font-family: 'HelveticaNeue-Medium', sans-serif;
 	font-size: 14px;
 }
 .form_content{
@@ -123,12 +123,12 @@ body{
 	padding: 10px 0;
 	margin: 34px 0;
 	border-top: 1px solid #7388b7;
-	font-family: 'Tahoma-Bold', sans-serif;
+	font-weight: bold;
 	position: relative;
 	transition: 0.5s ease;
 }
 .facebook span{
-	font-family: 'Tahoma', sans-serif;
+	font-weight: normal;
 }
 .facebook:hover{
 	background: #2e7ac4;
