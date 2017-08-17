@@ -203,3 +203,63 @@ body{
 	height: 2px;
 }
 /*----------------------end lena_code--------------------------*/
+
+
+/*----------------------oleg_code--------------------------*/
+
+form{
+	position: relative;
+}
+
+input{
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"]{
+	line-height: 35px;
+	width: 275px;
+	padding-left: 20px;
+	background: #000;
+	border-bottom: 1px solid #494949;
+}
+
+input:focus::-webkit-input-placeholder, input{
+	color: #fff;
+}
+
+input:focus{
+	border-bottom: 1px solid #689bcc;
+	background-image: linear-gradient(to top, #1b5288 0%, #1b5288 100%);
+	box-shadow: 0 1px 0 #4b4b4b, inset 0 2px 5px rgba(29, 26, 22, 0.2),
+	0 0 9px rgba(47, 123, 197, 0.77), inset 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+input[type="checkbox"]{
+	vertical-align: bottom;
+	position: absolute;
+	left: 0;
+}
+
+input[type="checkbox"]+p{
+	margin-left: -10px;
+}
+
+input[type="submit"]{
+	width: 151px;
+	height: 35px;
+	background: linear-gradient(to bottom, #4faddb, #3c8fce, #2e7ac4);
+	border: 1px solid rgba(255,255,255, 0.1);
+	border-radius: 3px;
+	box-shadow: inset 0 2px 0 0 #66c5e5;
+}
+
+input[type="submit"]:hover{
+	background: linear-gradient(to top, #4faddb, #3c8fce, #2e7ac4);
+}
+
+form+p{
+	font-size: 11px;
+}
+
+/*----------------------end oleg_code--------------------------*/
