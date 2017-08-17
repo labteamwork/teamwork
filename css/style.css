@@ -50,7 +50,58 @@ table {
 	box-sizing: border-box;
 }
 
-
+/********* HEADER *********/
+body{
+	overflow-x: hidden;
+}
+img{
+	display: inline-block;
+}
+header{
+	margin: 0 auto;
+	width: 1200px;
+	padding: 0 15px;
+}
+.container{
+	background-color: #085291;
+	margin: 0 -999999px;
+	padding: 0 999999px;
+	float: right;
+}
+li{
+	display: inline-block;
+	padding: 10px 0;
+}
+.header__left,.header__right{
+	display: inline-block;
+}
+.header__left__link,.header__right__link{
+	color: #5fb5ec; /* text color */
+	padding: 9px;
+}
+.header__right__link{
+	color: #fff;
+}
+.always__blue,.header__left__link:hover,.header__right__link:hover{
+	color: #fff;
+	background-color: #4eabda;
+}
+.always__blue{
+	padding-top: 11px;
+}
+.header__right{
+	border-left: 1px solid #56a2dc;
+}
+.no__underline{
+	text-decoration: underline;
+}
+.no__underline:hover{
+	text-decoration: none;
+}
+.fa-flag{
+	margin: 0 10px
+}
+/********* END__HEADER *********/
 
 
 /*----------------------lena_code--------------------------*/
